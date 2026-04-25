@@ -9,7 +9,9 @@
 ## 1️⃣ Introduction
 **Project Selected:** ATM (Automated Teller Machine) Software System  
 
-An ATM Software System is a mission-critical application responsible for handling financial transactions, verifying user identity (via PIN and Card), and communicating with the central banking server. Because it involves physical hardware integration and sensitive financial data, the system requires extreme precision, high security, and zero tolerance for errors in the core transaction logic.
+An **ATM Software System** is a mission-critical financial application that acts as a secure gateway between a bank’s central database and its customers. The system is responsible for managing real-time transactions such as cash withdrawals, balance inquiries, and fund transfers. 
+
+Technically, it involves a complex interplay between **hardware components** (card readers, cash dispensers, and thermal printers) and **secure network protocols**. Because it handles physical currency and sensitive user data (PINs/Card details), the system requires extreme precision, high-level encryption, and a zero-tolerance policy for logic errors or security vulnerabilities.
 
 ---
 
