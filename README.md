@@ -33,25 +33,18 @@ The Waterfall Model is the most appropriate choice for an ATM System due to the 
 
 | Model | Suitability | Reasoning |
 | :--- | :--- | :--- |
-| **Agile** | Low | Agile relies on continuous feedback and evolving requirements. You cannot release a "Minimum Viable Product" for an ATM; it must be fully functional and secure from day one. |
-| **Spiral** | Medium | While good for risk management, the Spiral model is highly complex and expensive. For a system with well-understood requirements, the overhead of constant risk cycles is unnecessary. |
-
+| **Agile Model** | **Low** | Agile relies on continuous feedback and evolving requirements. In an ATM system, you cannot release a "Minimum Viable Product" that only partially handles money; it must be 100% functional and secure from day one. |
+| **V-Model** | **High (Alternative)** | While excellent for validation and verification, the Waterfall approach is often preferred for initial builds to ensure the hardware-software design is completely frozen before testing resources are allocated. |
+| **Spiral Model** | **Medium** | The Spiral model is risk-driven and highly expensive. Since ATM requirements are standardized and well-understood globally, the overhead of constant, repetitive risk analysis cycles is unnecessary. |
 ---
 
 ## 5️⃣ Diagram
 The Waterfall Model follows a linear, sequential flow. Each phase must be completed before the next begins.
 
-```mermaid
-graph TD
-    A[Requirement Analysis] --> B[System Design]
-    B --> C[Implementation / Coding]
-    C --> D[Testing / Verification]
-    D --> E[Deployment]
-    E --> F[Maintenance]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style F fill:#bbf,stroke:#333,stroke-width:2px
----
+<img width="1920" height="1080" alt="waterfall1" src="https://github.com/user-attachments/assets/169b5ca5-2fbf-4edb-bb18-b7402ebbd304" />
 
+
+---
 ## 6️⃣ Conclusion
 For an **ATM Software System**, where reliability, security, and precision are more important than speed-to-market or flexibility, the **Waterfall Model** is the superior choice. Its structured approach ensures that all financial logic is thoroughly vetted, documented, and tested, minimizing the risk of failure in a live environment.
+
